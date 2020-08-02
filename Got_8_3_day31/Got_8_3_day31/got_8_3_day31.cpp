@@ -20,7 +20,6 @@ int get_week(int year, int month, int day)
 
 	return week;
 }
-
 int get_day(int year, int month, int week, int day_week)
 {
 	int weekDay = get_week(year, month, 1);
